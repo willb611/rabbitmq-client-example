@@ -21,7 +21,7 @@ public class Main {
   public void sendOrReceiveFromRabbitMQ() {
     ConnectionFactory connectionFactory = new ConnectionFactory();
     connectionFactory.setHost("localhost");
-    // From exception, I think default URI is something like: AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+    // From an exception log line, I think default URI is something like: AMQChannel(amqp://guest@127.0.0.1:5672/,1)
 
     try (Connection connection = connectionFactory.newConnection()) {
       logger.info("[sendOrReceiveFromRabbitMQ] Created connection, address: {} at port {}",
