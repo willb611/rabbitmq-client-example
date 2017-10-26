@@ -1,3 +1,5 @@
+package com.github.willb611.rabbitmq;
+
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DefaultConsumer;

@@ -1,3 +1,6 @@
+package com.github.willb611;
+
+import com.github.willb611.rabbitmq.MyConsumer;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
